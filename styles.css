@@ -65,9 +65,6 @@ a:visited {
     width: 50%;
 }
 
-.right {
-    width: 50%;
-}
 
 /* Clear floats after the columns */
 .row:after {
