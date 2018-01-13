@@ -1,6 +1,17 @@
 body {
     /* background-color: rgb(0, 255, 255);*/
     background: url("images/Background.jpg");
+    .column {
+    float: left;
+    width: 50%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
 }
 
 .heading5 {
@@ -57,14 +68,4 @@ a:visited {
     text-decoration: underline;
 }
 
-.column {
-    float: left;
-    width: 50%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
