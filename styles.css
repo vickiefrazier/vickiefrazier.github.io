@@ -8,6 +8,10 @@ body {
     width: 30%;
 }
 
+.row {
+    padding-left: 20%;
+}
+
 .row:after {
     /* Clear floats after the columns */
     content: "";
