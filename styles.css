@@ -3,13 +3,13 @@ body {
     background: url("images/Background.jpg");
 }
 
-body.column-left {
+.column-left {
     float: left;
     width: 50%;
     padding: 10px;
 }
 
-body.column-right {
+.column-right {
     float: right;
     width: 50%;
     padding: 10px;
