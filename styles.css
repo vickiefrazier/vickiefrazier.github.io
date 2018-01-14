@@ -1,24 +1,27 @@
 body {
     /* background-color: rgb(0, 255, 255);*/
     background: url("images/Background.jpg");
-    .column-left {
-        float: left;
-        width: 50%;
-        padding: 10px;
-    }
-    
-     .column-right {
-        float: right;
-        width: 50%;
-        padding: 10px;
-    }
+}
 
-    /* Clear floats after the columns */
-    .row:after {
+body.column-left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+body.column-right {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-    }
 }
 
 .heading5 {
@@ -74,5 +77,3 @@ a:visited {
     background-color: transparent;
     text-decoration: underline;
 }
-
-
